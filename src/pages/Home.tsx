@@ -6,11 +6,12 @@ import { buildInfo } from "../config/build";
 export default function Home() {
     return (
         <main className="storefront">
-            <p>{faketitle}</p>
             <header className="store-header">
                 <h1>{storefront.name}</h1>
                 <p>{storefront.tagline}</p>
             </header>
+
+            <p>This is an unwanted p tag that will be removed</p>
 
             <section className="hero">
                 <h2>Handcrafter Candles</h2>
